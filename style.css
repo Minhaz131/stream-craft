@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    margin-bottom: 200px;
+}
+nav{
+    background-color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav ul li, nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+nav .logo {
+    width: 180px;
+    height: 80px;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    text-align: center;
+    padding-top: 100px;
+}
+.main-headline{
+    padding: 10px 0px;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 200px;
+}
+.description{
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0px;
+    font-size: 23px;
+}
+/* .items{  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 15px;
+}
+
+.items .box1 , .items .box2, .items .box3{
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px 10px;
+    margin: 40px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px black;
+}
+.product-headline{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-size: 30px;   
+}
+footer{
+    background-color: #000;
+    color: #fff;
+}
+footer h2{ 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
+button{
+    padding: 18px 25px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+.box4{
+    overflow: scroll; 
+    width: 95vw;
+    height: 500px;
+} */
+main{
+    background-color: black;
+    padding: 100px 40px;
+    text-align: center;
+}
+main button{
+
+    background-color: #fff;
+}
+main button a{
+    color: #000;
+}
+.pro{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 20px;
+}
+main h2{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+.dic{
+    background-color: gray;
+    text-align: justify;
+    padding: 50px 30px;
+}
+.dic h2{
+    font-size: 30px;
+    text-align: center;
+}
+td,th{
+    text-align: center;
+    padding: 10px;
+}
+caption{
+    color: #fff;
+    font-size: 25px;
+}
+table{
+    background-color: #fff;
+    color: #000;
+}
+#contact{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+}
+#contact h2{
+    padding: 20px;
+}
+button{
+    padding: 15px 30px;
+    background-color: #000;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+@media all and (max-width:800px) and (min-width:300px){
+    table{
+        width: 85vw;
+        font-size: 13px;
+    }
+    caption{
+        font-size: 20px;
+    }
+    .main-headline{
+        font-size: 50px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    nav ul{
+        gap: 8px;
+    }
+    .dic{
+        text-align: center;
+    }
+    nav .logo{
+        width: 150px;
+        height: 70px;
+    }
+}
